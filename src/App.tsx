@@ -1,7 +1,10 @@
-import { useState } from 'react'
+import type { FC } from 'react';
 import './App.css'
 
-function App() {
-}
+const App: FC = () => { 
+  return(
+    <></>
+  )
+};
 
 export default App
