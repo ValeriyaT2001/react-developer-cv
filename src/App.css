@@ -1,0 +1,25 @@
+@reference "./index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Основной хедер */
+  .header {
+    @apply bg-lime-900 p-4;
+  }
+
+  /* Контейнер для кнопок навигации */
+  .header-nav {
+    @apply flex justify-end gap-4;
+  }
+
+  /* Стили для кнопок навигации */
+  .header-nav-button {
+    @apply px-4 py-2 text-white 
+           hover:bg-lime-700 rounded-lg 
+           transition-colors duration-200
+           font-medium;
+  }
+}
