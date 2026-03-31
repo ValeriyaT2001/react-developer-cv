@@ -1,7 +1,5 @@
 @reference "./index.css";
 
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 
 @layer components {
@@ -21,5 +19,20 @@
            hover:bg-lime-700 rounded-lg 
            transition-colors duration-200
            font-medium;
+  }
+  .pages{
+    @apply h-dvh
+  }
+  .about{
+    @apply bg-lime-100
+  }
+   .contacts{
+    @apply bg-lime-300
+  } 
+  .home{
+    @apply bg-lime-50
+  } 
+  .projects{
+    @apply bg-lime-200
   }
 }
