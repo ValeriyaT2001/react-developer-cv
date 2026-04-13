@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import type { FC } from "react";
 import "./App.css";
-
+import { ScrollButton } from "./components/ScrollButton";
 const Header = lazy(() => import("./components/Header"));
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -26,6 +26,7 @@ const App: FC = () => {
           <Contacts />
         </section>
       </main>
+      <ScrollButton />
     </>
   );
 };
